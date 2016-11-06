@@ -194,12 +194,14 @@ body {
     font-size: 1.3em; }
 
 footer {
+  position: fixed;
+  bottom: 0;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.25);
   height: 40px; }
 
-.footer {
-  margin-top: 190px; }
+.footer
+  
   .footer a {
     float: left;
     color: #fff;
