@@ -1,0 +1,255 @@
+body {
+  background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Roboto';
+  transition: 0.25s ease;
+  height: 100%; }
+
+@media screen and (min-width: 1170px) {
+  body {
+    height: 100vh; } }
+
+.mnu-line {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.25); }
+
+.send {
+  font-size: 25.5px;
+  padding-top: 17px;
+  color: #fff; }
+  .send span {
+    cursor: pointer;
+    color: #FFD400; }
+
+.sity-select {
+  display: block;
+  width: 1000px;
+  height: 600px;
+  background-color: #fff;
+  position: absolute;
+  z-index: 1;
+  top: 90px;
+  left: 30px;
+  box-shadow: 5px 5px 100px black; }
+  .sity-select .searchCity {
+    text-align: center; }
+    .sity-select .searchCity i {
+      position: relative;
+      right: 33px;
+      font-size: 20px;
+      color: #595B5B; }
+  .sity-select input {
+    width: 90%;
+    margin-top: 20px;
+    padding: 8px; }
+
+.allCity .tg-img {
+  padding-top: 35px;
+  padding-left: 40px; }
+
+.Select {
+  position: relative; }
+  .Select #first, .Select #second, .Select #third, .Select #fourth {
+    list-style: none;
+    position: absolute;
+    top: 95px; }
+    .Select #first li p, .Select #second li p, .Select #third li p, .Select #fourth li p {
+      cursor: pointer;
+      color: #787878;
+      font-size: 17px; }
+  .Select #second {
+    left: 250px;
+    top: 35px; }
+  .Select #third {
+    left: 480px;
+    top: 35px; }
+  .Select #fourth {
+    left: 735px;
+    top: 35px; }
+
+.tlgrm {
+  width: 195px; }
+  .tlgrm img {
+    float: left; }
+  .tlgrm p {
+    padding-top: 28px;
+    float: right;
+    color: #65C8D7; }
+
+.col-ico {
+  padding-top: 32px; }
+
+.callback {
+  padding-top: 2px; }
+  .callback img {
+    float: left;
+    padding-left: 15px; }
+  .callback p {
+    float: right;
+    color: #fff;
+    font-size: 26px;
+    padding-top: 35px;
+    padding-right: 95px; }
+
+.content-wrap {
+  padding-top: 35px; }
+
+.stack {
+  color: #fff;
+  padding-top: 85px;
+  font-size: 4.3em; }
+
+.stacin {
+  color: #fff;
+  font-size: 1.8em; }
+
+.chek {
+  list-style: none;
+  padding: 0;
+  padding-top: 20px; }
+  .chek li {
+    padding: 7px;
+    color: #fff;
+    font-size: 1.15em; }
+  .chek img {
+    padding-right: 10px; }
+
+.zab {
+  max-width: 420px;
+  background-color: #fff;
+  margin-top: 95px;
+  text-align: center;
+  height: 100%; }
+  .zab h1 {
+    padding-top: 10px;
+    margin: 0; }
+  .zab p {
+    padding-top: 5px; }
+  .zab form {
+    text-align: left;
+    padding-left: 35px; }
+    .zab form input {
+      width: 360px;
+      height: 43px;
+      font-size: 1.5em; }
+    .zab form label {
+      font-size: 1.2em;
+      margin: 0; }
+    .zab form label[for="select"] {
+      padding-top: 25px; }
+    .zab form img {
+      padding-bottom: 10px;
+      padding-right: 8px; }
+    .zab form button {
+      color: #fff;
+      font-size: 1.7em;
+      margin-top: 20px;
+      padding: 18px 0;
+      width: 360px;
+      border: none;
+      background: repeating-linear-gradient(-45deg, #00CC66, #00CC66 10px, #00B85C 12px, #00B85C 11px);
+      box-shadow: 0 3px 0px #00A050;
+      border-radius: 5px; }
+  .zab .ros {
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+    text-align: left;
+    padding-bottom: 20px;
+    padding-top: 25px;
+    max-width: 300px;
+    font-weight: bold; }
+    .zab .ros img {
+      float: left;
+      padding-top: 10px;
+      padding-right: 15px; }
+
+.selectCount {
+  position: relative; }
+  .selectCount i {
+    position: absolute;
+    right: 32px; }
+  .selectCount .selectSection {
+    font-size: 1.2em;
+    font-weight: bold;
+    width: 360px;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 2px 2px 15px black; }
+    .selectCount .selectSection p {
+      cursor: pointer;
+      padding-left: 20px; }
+      .selectCount .selectSection p:hover {
+        background-color: #FED400; }
+
+.pmPos {
+  position: relative; }
+  .pmPos p {
+    position: absolute;
+    top: -39px;
+    left: 295px;
+    padding-left: 20px;
+    border-left: 1.5px #7f8c8d solid;
+    font-size: 1.3em; }
+
+footer {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.25);
+  height: 40px; }
+
+.footer {
+  margin-top: 190px; }
+  .footer a {
+    float: left;
+    color: #fff;
+    padding-top: 12px;
+    text-decoration: underline; }
+    .footer a:hover {
+      color: #fff; }
+  .footer p {
+    float: right;
+    padding-top: 10px;
+    color: #fff; }
+
+#small-dialog {
+  background-color: #fff;
+  max-width: 430px;
+  position: relative;
+  margin: auto;
+  text-align: center; }
+  #small-dialog img {
+    padding-top: 20px; }
+
+.cost {
+  background-color: #FBD200; }
+  .cost h1 {
+    font-size: 1.7em;
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 15px; }
+
+.alina {
+  font-size: 2em; }
+
+.p-form {
+  font-size: 1.2em; }
+
+#email-form input {
+  height: 40px;
+  width: 300px;
+  margin-bottom: 8px;
+  font-size: 1.4em;
+  text-align: center; }
+
+#email-form button {
+  color: #fff;
+  font-size: 1.7em;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  padding: 18px 0;
+  width: 300px;
+  border: none;
+  background: repeating-linear-gradient(-45deg, #00CC66, #00CC66 10px, #00B85C 12px, #00B85C 11px);
+  box-shadow: 0 3px 0px #00A050;
+  border-radius: 5px; }
